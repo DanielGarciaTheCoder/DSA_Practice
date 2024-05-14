@@ -1,4 +1,5 @@
 public class LinearSearch {
+
     public static int linear_search(int[] haystack, int needle) {
         for (int i=0; i<haystack.length; i++) {
             if (haystack[i] == needle) {
@@ -15,4 +16,5 @@ public class LinearSearch {
         System.out.println(linear_search(haystack, 77));
         System.out.println(linear_search(haystack, 11));
     }
+    
 }
